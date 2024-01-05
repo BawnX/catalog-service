@@ -1,0 +1,2 @@
+[default.databases.sqlx]
+url = "postgres://postgres:zIBq3ODuZ9KQMOE@localhost:5432/postgres"
