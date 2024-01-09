@@ -34,10 +34,10 @@
     },
     "nullable": [
       false,
-      true,
-      true,
       false,
-      true
+      false,
+      false,
+      false
     ]
   },
   "hash": "d71767b460728b060c1859303189960a5127f944296214edc295d3bb19b5318c"
