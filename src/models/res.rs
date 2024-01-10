@@ -10,3 +10,9 @@ pub struct ServicesConnectionsRes {
     pub type_name: String,
     pub created_at: DateTime<Utc>,
 }
+
+#[derive(Debug, Clone, Deserialize, Serialize)]
+#[serde(crate = "rocket::serde")]
+pub struct ResultRes<T> {
+    pub data: T,
+}
